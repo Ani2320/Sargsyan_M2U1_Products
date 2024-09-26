@@ -1,0 +1,15 @@
+:root {
+    --nav-height: 50px;
+    --footer-height: 50px;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serifs;
+    margin: 0;
+    max-width: 100vmax;
+}
+
+main {
+    height: calc(100vh - var(--nav-height) - var(--footer-height));
+    margin: 24px;
+}
