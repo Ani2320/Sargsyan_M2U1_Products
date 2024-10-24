@@ -15,27 +15,56 @@
 .rgap-15{ display:grid; row-gap: 15px; }
 .cgap-15{display: grid; column-gap: 15px;}
 
+.gap-20{
+    display: grid;
+    row-gap: 20px;
+}
+
+.gap-15{
+    display: grid;
+    row-gap: 15px;
+}
+
 .margin-20{ margin: 20px; }
 /*Margin RIGHT*/
+.mr-10{ margin-right: 10px; }
 .mr-30{ margin-right: 30px; }
 /*Margin LEFT*/
+.ml-10{ margin-left: 10px; }
 .ml-30{ margin-left: 30px; }
 
 /*Margin TOP*/
+.mt-10{ margin-top: 10px; }
 .mt-20{ margin-top: 20px; }
 .mt-40{ margin-top: 40px; }
+.mt-50{ margin-top: 50px; }
 
+/*Boreder Radius*/
+.br-10{ border-radius: 10px; }
 /*Text*/
 .bold{ font-weight: bold; }
 
 /*Margin BOTTOM*/
 .mb-30{ margin-bottom: 30px; }
+.mb-50{ margin-bottom: 50px; }
 .prd-img-sec{ width: calc(100vW * 0.4); }
 
 /*Button*/
 .btn{
     border-radius: 8px !important;
     height: 30px;
+}
+
+/*HEIGHT*/
+
+/*WIDTH*/
+.w-40{ width: 40%; }
+.w-50{ width: 50%; }
+.w-100{ width: 100%; }
+
+.btn-generic{ height: 40px;
+    background-color: rgb(95, 7, 150);
+    color: white;
 }
 
 .btn-close{
@@ -46,4 +75,22 @@
 .btn-confirm{
     background-color: rgb(5, 50, 105);
     color: white;
+}
+
+#reg-form{ width: 40%; }
+input{ border-radius: 5px; 
+    height: 25px;
+    font-size: small;
+}
+header{ display:inline !important; }
+label{ 
+    font-size: small;
+    color: rgb(51, 48, 48);
+    margin-bottom: -10px;
+}
+.block{ display: none; }
+#invalid-user-message{
+    font-size: small;
+    color: rgb(171, 10, 10);
+    margin-top: -10px;
 }

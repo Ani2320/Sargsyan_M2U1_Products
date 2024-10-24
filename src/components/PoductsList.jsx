@@ -2,7 +2,7 @@ import axios from "axios"
 import ProductCard from "./ProductCard";
 import { useState, useEffect } from "react";
 
-function PoductsList ({showDetail, setShowDetail, setProduct}) {
+function PoductsList ({showDetail, setStatusShowDetail, setChoosedProduct, setScreenName}) {
     const [data, setData] = useState(null);
 
     useEffect(() => {
@@ -20,7 +20,7 @@ function PoductsList ({showDetail, setShowDetail, setProduct}) {
     }, []);
 
     return(data &&
-        <div>
+        <div className="grid-container">
             {data.map(product =>(
                 <ProductCard 
                     key={product.id} 
@@ -31,8 +31,9 @@ function PoductsList ({showDetail, setShowDetail, setProduct}) {
                     description = {product.description}
                     category = {product.category}
                     showDetail = {showDetail}
-                    setShowDetail = {setShowDetail}
-                    setProduct = {setProduct}
+                    setShowDetail = {setStatusShowDetail}
+                    setProduct = {setChoosedProduct}
+                    setScreenName = {setScreenName}
                 />
             ))}
         </div>

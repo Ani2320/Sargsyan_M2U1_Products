@@ -6,10 +6,10 @@
 body {
     font-family:Arial, Helvetica, sans-serifs;
     margin: 0;
-    max-width: 100vmax;
+    /*max-width: 100vmax;*/
 }
 
 main {
-    height: calc(100vh - var(--nav-height) - var(--footer-height));
+    height: calc(100vW - 100% - var(--nav-height) - var(--footer-height) + 100px);
     margin: 24px;
 }

@@ -1,15 +1,12 @@
 import { useState } from "react";
 
-function ProductDetail({product, showDetail, setShowDetail}) {
+function ProductDetail({product, showDetail, setStatusShowDetail, setScreenName}) {
     const [showMessage, setShowMessage] = useState(false);
-    function handleSetShowDetail(){
-        setShowDetail(!showDetail);
-    }
 
   return (
     <>
         <div className="ta-r mt-40">
-            <button className="btn btn-close" onClick={handleSetShowDetail}>Cerrar X</button>
+            <button className="btn btn-close" onClick={()=>{setStatusShowDetail(!showDetail); setScreenName("Productos")}}>Cerrar X</button>
         </div>
         <div className = "flex">
             <div className = "prd-img-sec ta-c margin-20">

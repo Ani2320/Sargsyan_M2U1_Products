@@ -1,6 +1,5 @@
-import MainContent from "./MainContent"
 
-function ProductCard({id, title, image, price, description, category, showDetail, setShowDetail, setProduct}) {
+function ProductCard({id, title, image, price, description, category, showDetail, setShowDetail, setProduct, setScreenName}) {
   console.log(image)
   function ViewProductDetail(){
     const product = {
@@ -20,11 +19,17 @@ function ProductCard({id, title, image, price, description, category, showDetail
   product.category = category
   setProduct(product);
   setShowDetail(!showDetail);
+  setScreenName("Detalles")
   }
     return (
-      <label key = {id} width={100} className="product-distance" onClick={ViewProductDetail} >
-        <img src={image} title={title} alt={`Image of  ${title}`} height={110} width={110} />
-      </label>
+      <div 
+        key = {id} width={100} 
+        className="product-distance grid-item" 
+        onClick={ViewProductDetail} 
+      >
+        <img src={image} title={title} alt={`Image of  ${title}`} height={120} width={120} />
+        <div> {title} </div>
+      </div>
     )
   }
 
