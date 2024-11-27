@@ -2,11 +2,23 @@
     width: 100%;
     height: var(--nav-height);
 
-    background-color: rgba(28, 4, 100, 0.92);;
+    background-color: rgb(0, 0, 0);
     color: white;
     
     display: flex;
     align-items:center;
 
     top: 0;
+}
+
+a { text-decoration: none; }
+
+.space-navitems { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+a.active {
+    color: pink;
 }
