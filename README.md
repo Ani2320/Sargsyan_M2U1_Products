@@ -51,6 +51,6 @@ Se te generará un link como en la siguiente imagen
 
 ![image](https://github.com/user-attachments/assets/5e391ea6-c019-492f-8b16-c5e5866fbb85)
 
-Con Ctrl + Click se abrirá una ventana de navegador y ualya, ya podes navegar por la app.
+Con Ctrl + Click se abrirá una ventana de navegador y vualya, ya podes navegar por la app.
 Que disfrútes de este hermoso viaje.
 
