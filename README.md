@@ -39,7 +39,7 @@ Para aplicar los cambios volve a instalar el node para que se actualice.
     npm install
 
  Algunos estilos son importados de la librería de react-bootstrap.
- Para instalarlo hay que ejecutar el siguiente comando
+ Para instalarlo hay que ejecutar la siguiente linea de comando
 
     npm install react-bootstrap
 
