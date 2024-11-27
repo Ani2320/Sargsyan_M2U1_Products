@@ -19,7 +19,7 @@ Para poder manejar rutas se necesita instalar la librería router react-router-d
 
     npm install react-router-dom
 
-Y por último: para poder conectarse a la base de datos y cosumirla necesitas instalar la librería de firebase
+Para poder conectarse a la base de datos y cosumirla necesitas instalar la librería de firebase
 
 # Usando npm
 
@@ -37,3 +37,20 @@ Para aplicar los cambios volve a instalar el node para que se actualice.
 # Usando npm
 
     npm install
+
+ Algunos estilos son importados de la librería de react-bootstrap.
+ Para instalarlo hay que ejecutar el siguiente comando
+
+    npm install react-bootstrap
+
+Si ya instalaste todas las librerias indicadas arriba, estás para interactuar con la aplicación web.
+Antes necesitas ejecutarla desde el terminal con las siguiente linea de comando
+
+    npm run dev
+Se te generará un link como en la siguiente imagen
+
+![image](https://github.com/user-attachments/assets/5e391ea6-c019-492f-8b16-c5e5866fbb85)
+
+Con Ctrl + Click se abrirá una ventana de navegador y ualya, ya podes navegar por la app.
+Que disfrútes de este hermoso viaje.
+
