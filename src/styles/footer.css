@@ -1,8 +1,9 @@
 footer {
+    position: fixed;
     height: var(--footer-height);
     width: 100%;
 
-    background-color: rgba(28, 4, 100, 0.92);
+    background-color: rgb(0, 0, 0);
     color: white;
 
     display: flex;
