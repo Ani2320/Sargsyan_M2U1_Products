@@ -28,7 +28,9 @@ Y por último: para poder conectarse a la base de datos y cosumirla necesitas in
   Asegurate de instalar la version actualizada que trae correcciones de varios fixes. lo cual es 13.0.1
 Si no logras instalarlo automaticamente, puedes configurarlo manualmente de la siguiente manera.
 
-En el paquete package.json revisa la versión actual de firebase, si es menor a la 13.0.1, cambialo manualmente y guarda los cambios. ![image](https://github.com/user-attachments/assets/ac79ef35-aed1-48e6-816d-de7d21e707eb)
+En el paquete package.json revisa la versión actual de firebase, si es menor a la 13.0.1, cambialo manualmente y guarda los cambios. 
+
+   ![image](https://github.com/user-attachments/assets/ac79ef35-aed1-48e6-816d-de7d21e707eb)
 
 Para aplicar los cambios volve a instalar el node para que se actualice.
 
