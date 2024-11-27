@@ -10,8 +10,11 @@ Currently, two official plugins are available:
 # Guía completa de instalación de las librerías para poder ejecutar correctamente
 
 Instalación de dependencias de node.js
+ 
   npm install
 
 Para poder manejar rutas se necesita instalar la librería router react-router-dom
+
 #Usando npm 
+
 npm install react-router-dom
